@@ -1,19 +1,29 @@
+/* ***********************
+ * CSC-20004 LECTURE 2   *
+ * Java Collections      *
+ * ***********************/
 package uk.ac.keele.csc20004;
 
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * 
+ */
 public class HashcodeEquals {
     public static void main(String[] args) {
+        // Let's create two Student1's and check their hashcodes
         Student1 alex1 = new Student1(1, "Alex");
         Student1 alex2 = new Student1(1, "Alex");
         
         System.out.println("alex1 hashcode = " + alex1.hashCode());
         System.out.println("alex2 hashcode = " + alex2.hashCode());
         
+        // and how hashcode reflects on equality
         System.out.println("Checking equality between alex1 and alex2 = " + alex1.equals(alex2));
 
+        // Now, let's try again with 
         Student2 jane1 = new Student2(100, "Jane");
         Student2 jane2 = new Student2(100, "Jane");
 

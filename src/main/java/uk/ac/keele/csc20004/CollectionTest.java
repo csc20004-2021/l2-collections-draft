@@ -1,3 +1,7 @@
+/* ***********************
+ * CSC-20004 LECTURE 2   *
+ * Java Collections      *
+ * ***********************/
 package uk.ac.keele.csc20004;
 
 import java.util.List;
@@ -5,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 
-/** Example taken from Deitel & Deitel "Java. How to program" 7th ed
+/** Example taken from Deitel {@literal &} Deitel "Java. How to program" 7th ed
  *  Using the Collection interface
  *
  */

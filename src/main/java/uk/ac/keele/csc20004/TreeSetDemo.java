@@ -1,3 +1,7 @@
+/* ***********************
+ * CSC-20004 LECTURE 2   *
+ * Java Collections      *
+ * ***********************/
 package uk.ac.keele.csc20004;
 
 import java.util.Comparator;
